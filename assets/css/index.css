@@ -1,0 +1,650 @@
+/* ||||||||| HEADER SECTION |||||||||| */
+
+.header-logo {
+    width: 25%;
+}
+
+/* |||||||| SHOPS SECTION |||||||||||  */
+
+.shops-section-title {
+    font-size: calc(1rem + .5vw);
+    font-family: 'Gotham-ExtraLight';
+    letter-spacing: 2px;
+    color: black;
+}
+
+.shops-section-title-tiny {
+    font-size: calc(1rem + .4vw);
+    font-family: 'Gotham-Light';
+    letter-spacing: 2px;
+    color: black;
+}
+
+.list-items {
+    list-style: none;
+    font-family: 'Gotham-Light';
+    line-height: 2;
+}
+
+.red-dots {
+    width: 10px;
+    height: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+}
+
+/* |||||||||||| BENEFITS SECTIONS ||||||||||||  */
+
+/* ||||| LIDER SECTION ||||||  */
+
+.lider {
+    background-color: #dfdfdf;
+}
+
+.benefits-description {
+    font-size: calc(1.3rem + .8vw);
+    position: relative;
+    max-width: 170px;
+    margin: auto;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+.beneftis-item-image {
+    width: 70%;
+}
+
+.red-curves {
+    max-width: 25.5px;
+    min-width: 25px;
+    width: 100%;
+    position: absolute;
+}
+
+.right-curve {
+    right: 0;
+    top: -20px;
+}
+
+.left-curve {
+    left: 0;
+    bottom: -15px;
+}
+
+.gotham-thin {
+    font-family: 'Gotham-Thin';
+    font-size: calc(2.8rem + 1.8vw);
+}
+
+.gotham-thin-dos {
+    font-family: 'Gotham-Thin';
+    font-size: calc(1.6rem + 1vw);
+    line-height: 1.5 !important;
+}
+
+.gotham-extralight {
+    font-family: 'Gotham-ExtraLight';
+    font-size: calc(1.5rem + .8vw);
+}
+
+.gotham-light {
+    font-family: 'Gotham-Light';
+    font-size: calc(.9rem + .4vw);
+    letter-spacing: 0.5px !important;
+}
+
+/* |||||| WARRANTY |||||| */
+
+.warranty {
+    background-color: #f7f7f7;
+}
+
+.warranty .benefits-description {
+    max-width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.warranty-icon {
+    width: 15%;
+}
+
+.first-line {
+    line-height: 1.1;
+}
+
+.gotham-light-1 {
+    font-family: 'Gotham-Light';
+    font-size: calc(1.8rem + .9vw);
+}
+
+.gotham-light-2 {
+    font-family: 'Gotham-Light';
+    font-size: calc(1.2rem + .6vw);
+    margin-left: 5px;
+}
+
+.gotham-extralight-1 {
+    font-family: 'Gotham-ExtraLight';
+    font-size: calc(2.3rem + 1.3vw);
+}
+
+.warranty-hr {
+    color: #6b6b6b;
+    width: 50%;
+    border: none;
+    height: 1px;
+    color: #6a6a6a;
+    background-color: #6a6a6a;
+}
+
+.second-line {
+    line-height: 0.9;
+}
+
+.gotham-book-1 {
+    font-family: 'Gotham-Book';
+    font-size: calc(.7rem + .4vw);
+}
+
+.gotham-light-3 {
+    font-family: 'Gotham-Light';
+    font-size: calc(.7rem + .4vw);
+}
+
+/* ||||||  EFFICIENCY SECTION ||||||| */
+
+.efficiency {
+    background-color: #dfdfdf;
+}
+
+.efficiency .gotham-extralight-1 {
+    font-family: 'Gotham-ExtraLight';
+    font-size: calc(2rem + 1vw);
+    margin: 0;
+    margin-top: -15px;
+}
+
+.efficiency .benefits-description {
+    max-width: 100%;
+}
+
+.efficiency .right-curve {
+    position: relative;
+    margin-left: 35px;
+}
+
+.efficiency .left-curve {
+    position: relative;
+    margin-right: 50px;
+}
+
+/* |||| ENERGY SECTION |||||| */
+
+.energy {
+    background-color: #d7d7d7;
+    position: relative;
+}
+
+.quality-icon {
+    width: 15%;
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+
+.energy .gotham-extralight-1 {
+    font-family: 'Gotham-ExtraLight';
+    font-size: calc(2rem + 1vw);
+}
+
+.energy .gotham-extralight-2 {
+    font-size: calc(1.8rem + .9vw);
+}
+
+.energy .right-curve {
+    right: -25px;
+    top: -15px;
+}
+
+.energy .left-curve {
+    left: -20px;
+    bottom: -20px;
+}
+
+/* |||||| SMELL |||||||  */
+
+.smell {
+    background-color: #c7c7c7;
+}
+
+.smell .benefits-description {
+    max-width: 200px;
+}
+
+.smell .gotham-light-1 {
+    font-family: 'Gotham-Light';
+    font-size: calc(2rem + 1vw);
+}
+
+.smell .gotham-extralight-1 {
+    font-family: 'Gotham-ExtraLight';
+    font-size: calc(2.8rem + 1.8vw);
+}
+
+.smell .gotham-light-2 {
+    font-family: 'Gotham-Light';
+    font-size: calc(2rem + 1vw);
+}
+
+.smell .gotham-light-3 {
+    font-family: 'Gotham-Light';
+    font-size: calc(1.4rem + .6vw);
+}
+
+.smell .right-curve {
+    right: 20px;
+    top: -20px;
+}
+
+.smell .left-curve {
+    left: 0px;
+    bottom: -20px;
+}
+
+/* |||| MADE-IN SECTION |||||  */
+
+.made-in {
+    background-color: #e7e7e7;
+    position: relative;
+}
+
+.made-in-flat {
+    z-index: 1;
+    width: 10%;
+    position: absolute;
+    top: 25px;
+}
+
+.made-in .beneftis-item-image {
+    width: 100%;
+}
+
+.made-in .benefits-description {
+    max-width: 100%;
+}
+
+.made-in .gotham-extralight-1 {
+    font-family: 'Gotham-ExtraLight';
+    font-size: calc(2.1rem + 1.1vw);
+}
+
+.made-in .gotham-light-1 {
+    font-family: 'Gotham-Light';
+    font-size: calc(1.9rem + .9vw);
+    margin-right: 10px;
+}
+
+.made-in .gotham-extralight-2 {
+    font-family: 'Gotham-ExtraLight';
+    font-size: calc(2.1rem + 1.1vw);
+}
+
+.made-in .right-curve {
+    right: -10px;
+    top: -10px;
+}
+
+.made-in .left-curve {
+    left: -15px;
+    bottom: -5px;
+}
+
+/* ||||||| FOOTER SECTION ||||||  */
+
+.blue-band-footer {
+    height: 50px;
+    background-color: #0066b3;
+}
+
+.footer-last-section {
+    position: relative;
+}
+
+.logo-footer-section {
+    position: absolute;
+    z-index: 1;
+    top: -35px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer {
+    max-width: 100px;
+}
+
+/* ||||| MEDIA QUERYS ||||||  */
+
+@media (min-width: 1300px) {
+    .blue-band-footer {
+        height: 170px !important;
+    }
+    .logo-footer {
+        min-width: 300px !important;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1299px) {
+    .blue-band-footer {
+        height: 150px !important;
+    }
+    .logo-footer {
+        min-width: 250px !important;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1099px) {
+    .blue-band-footer {
+        height: 110px !important;
+    }
+    .logo-footer {
+        min-width: 190px !important;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .blue-band-footer {
+        height: 100px !important;
+    }
+    .logo-footer {
+        min-width: 160px !important;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 699px) {
+    .logo-footer {
+        min-width: 120px;
+    }
+}
+
+@media (min-width: 768px) {
+    .made-in .beneftis-item-image {
+        min-height: 400px;
+    }
+    .smell .benefits-description {
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 699px) {
+    .blue-band-footer {
+        height: 80px !important;
+    }
+}
+
+@media (min-width: 1000px) {
+    .made-in-flat {
+        width: 4%;
+    }
+    .quality-icon {
+        width: 8%;
+    }
+    .shops-section-title {
+        font-size: calc(1.5rem + .8vw);
+    }
+    .shops-section-title-tiny {
+        font-size: calc(1.2rem + .5vw);
+    }
+    .list-items {
+        font-size: 20px;
+    }
+    .energy .right-curve {
+        right: -75px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 999px) {
+    .made-in-flat {
+        width: 5%;
+    }
+    .quality-icon {
+        width: 10%;
+    }
+    .shops-section-title {
+        font-size: calc(1.4rem + .8vw);
+    }
+    .shops-section-title-tiny {
+        font-size: calc(1.2rem + .6vw) !important;
+    }
+}
+
+@media (min-width: 1251px) {
+    .energy .right-curve {
+        right: -55px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1250px) {
+    .energy .right-curve {
+        right: -40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+    .energy .right-curve {
+        right: -65px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .energy .right-curve {
+        right: -85px;
+        top: -15px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .energy .right-curve {
+        right: -75px;
+        top: -15px;
+    }
+}
+
+@media (min-width: 1101px) {
+    .red-curves {
+        max-width: 40.5px;
+    }
+    .benefits-description {
+        max-width: 250px;
+    }
+    .gotham-extralight {
+        font-size: calc(2.2rem + 1.4vw);
+    }
+    .gotham-thin {
+        font-size: calc(3.8rem + 2.6vw);
+    }
+    .right-curve {
+        right: 5px;
+        top: -30px;
+    }
+    .gotham-light {
+        font-size: calc(1.3rem + .5vw);
+    }
+    .gotham-thin-dos {
+        font-size: calc(2.3rem + 1.6vw);
+        line-height: 1.2 !important;
+    }
+    .gotham-light-1 {
+        font-size: calc(2.1rem + 1.2vw);
+    }
+    .gotham-light-2 {
+        font-size: calc(1.5rem + .9vw);
+    }
+    .gotham-extralight-1 {
+        font-size: calc(2.7rem + 1.7vw);
+    }
+    .warranty-hr {
+        width: 45%;
+    }
+    .gotham-book-1 {
+        font-size: calc(.9rem + .6vw);
+    }
+    .gotham-light-3 {
+        font-size: calc(.9rem + .6vw);
+    }
+    .efficiency .gotham-extralight-1 {
+        font-size: calc(2.7rem + 1.7vw);
+    }
+    .efficiency .left-curve {
+        margin-right: 90px;
+    }
+    .efficiency .right-curve {
+        margin-left: 50px;
+    }
+    .energy .gotham-extralight-1 {
+        font-size: calc(2.4rem + 1.4vw);
+    }
+    .energy .gotham-extralight-2 {
+        font-size: calc(2.1rem + 1.4vw);
+    }
+    .energy .left-curve {
+        left: -25px;
+        bottom: -25px;
+    }
+    .smell .gotham-light-1 {
+        font-size: calc(2.4rem + 1.4vw);
+    }
+    .smell .gotham-extralight-1 {
+        font-size: calc(3rem + 2vw);
+    }
+    .smell .gotham-light-2 {
+        font-size: calc(2.3rem + 1.3vw);
+    }
+    .smell .gotham-light-3 {
+        font-size: calc(1.5rem + .7vw);
+        line-height: 1.5 !important;
+    }
+    .smell .right-curve {
+        right: 5px;
+        top: -25px;
+    }
+    .smell .left-curve {
+        left: -10px;
+        bottom: -20px;
+    }
+    .made-in .gotham-extralight-1 {
+        font-size: calc(2.4rem + 1.4vw);
+    }
+    .made-in .gotham-light-1 {
+        font-size: calc(2.1rem + 1.1vw);
+    }
+    .made-in .gotham-extralight-2 {
+        font-size: calc(2.4rem + 1.4vw);
+    }
+    .made-in .right-curve {
+        right: -20px;
+    }
+    .made-in .left-curve {
+        left: -25px;
+        bottom: -10px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1100px) {
+    .benefits-description {
+        max-width: 200px;
+    }
+    .gotham-extralight {
+        font-size: calc(2rem + 1.2vw);
+    }
+    .gotham-thin {
+        font-size: calc(3.6rem + 2.4vw);
+    }
+    .right-curve {
+        right: 0px;
+    }
+    .gotham-light {
+        font-size: calc(1.2rem + .4vw);
+    }
+    .gotham-thin-dos {
+        font-size: calc(2.1rem + 1.4vw);
+        line-height: 1.2 !important;
+    }
+    .gotham-light-1 {
+        font-size: calc(2.1rem + 1.2vw);
+    }
+    .gotham-light-2 {
+        font-size: calc(1.5rem + .9vw);
+    }
+    .gotham-extralight-1 {
+        font-size: calc(2.7rem + 1.7vw);
+    }
+    .warranty-hr {
+        width: 45%;
+    }
+    .gotham-book-1 {
+        font-size: calc(.9rem + .6vw);
+    }
+    .gotham-light-3 {
+        font-size: calc(.9rem + .6vw);
+    }
+    .efficiency .gotham-extralight-1 {
+        font-size: calc(2.4rem + 1.4vw);
+    }
+    .efficiency .left-curve {
+        margin-right: 55px;
+    }
+    .efficiency .right-curve {
+        margin-left: 50px;
+    }
+    .energy .gotham-extralight-1 {
+        font-size: calc(2.4rem + 1.4vw);
+    }
+    .energy .gotham-extralight-2 {
+        font-size: calc(2.1rem + 1.4vw);
+    }
+    .smell .gotham-light-1 {
+        font-size: calc(2.4rem + 1.4vw);
+    }
+    .smell .gotham-extralight-1 {
+        font-size: calc(3rem + 2vw);
+    }
+    .smell .gotham-light-2 {
+        font-size: calc(2.3rem + 1.3vw);
+    }
+    .smell .gotham-light-3 {
+        font-size: calc(1.5rem + .7vw);
+        line-height: 1.5 !important;
+    }
+    .smell .right-curve {
+        right: 20px;
+    }
+    .smell .left-curve {
+        left: 10px;
+    }
+    .made-in .gotham-extralight-1 {
+        font-size: calc(2.4rem + 1.4vw);
+    }
+    .made-in .gotham-light-1 {
+        font-size: calc(2.1rem + 1.1vw);
+    }
+    .made-in .gotham-extralight-2 {
+        font-size: calc(2.4rem + 1.4vw);
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .made-in-flat {
+        width: 7%;
+    }
+    .quality-icon {
+        width: 12%;
+    }
+}
+
+@media (max-width: 412px) {
+    .blue-band-footer {
+        height: 50px !important;
+    }
+}

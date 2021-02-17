@@ -1,0 +1,244 @@
+/* |||||| MAIN MENU ||||||  */
+
+.btn.btn-secondary {
+    width: 350px;
+    position: relative;
+    background-color: #c7c7c7 !important;
+    border-color: #c7c7c7 !important;
+    color: black;
+    font-family: 'Gotham-book';
+}
+
+.btn-group {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    width: 385px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+    width: auto;
+}
+
+.dropdown-menu.show {
+    width: 350px;
+    height: auto;
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    top: 35px !important;
+    transform: none !important;
+    box-shadow: 1px 4px 5px 0px rgba(89, 86, 89, 0.75);
+}
+
+.dropdown, .dropleft, .dropright, .dropup {
+    text-align: center;
+    margin-top: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #FE1C25;
+    text-decoration: none;
+}
+
+/** =======================
+ * Contenedor Principal
+ ===========================*/
+
+h1 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 80px;
+}
+
+h1 a {
+    color: #c12c42;
+    font-size: 16px;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 360px;
+    background: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    position: relative;
+    padding: 0;
+}
+
+.accordion .link {
+    cursor: pointer;
+    display: flex;
+    padding: 15px 15px 15px 42px;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link {
+    border-bottom: 0;
+}
+
+.accordion li i {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    font-size: 18px;
+    color: #595959;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+    right: 12px;
+    left: auto;
+    font-size: 16px;
+}
+
+.accordion li.open .link {
+    color: #FE1C25;
+}
+
+.accordion li.open i {
+    color: #FE1C25;
+}
+
+.accordion li.open i.fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.accordion li.default .submenu {
+    display: block;
+}
+
+/**
+ * Submenu
+ -----------------------------*/
+
+.submenu {
+    display: none;
+    background-color: #c7c7c7;
+    border-color: #c7c7c7;
+    font-size: 14px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 0;
+    color: black;
+    font-family: 'Gotham-book';
+}
+
+.submenu li {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: auto;
+    margin-left: 30px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    position: relative;
+    width: 250px;
+}
+
+.submenu-li:hover>.bubble {
+    display: block;
+}
+
+.bubble {
+    display: none;
+    position: relative;
+    background: #FE1C25;
+    color: #FFFFFF;
+    font-family: Courier New;
+    font-size: 10px;
+    line-height: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(163, 163, 163, 0.42);
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: 'Gotham-book';
+}
+
+.data-box {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: #961212 transparent;
+    border-width: 0 10px 10px;
+    top: -10px;
+    left: 10%;
+    margin-left: -10px;
+}
+
+.depto .text::before {
+    content: '+';
+    font-family: 'Gotham-Book';
+}
+
+.depto.open .text::before {
+    content: '-';
+    font-family: 'Gotham-Book';
+}
+
+/* ||||| SCROLL BAR |||||| */
+
+/* width */
+
+.submenu::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Track */
+
+.submenu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+.submenu::-webkit-scrollbar-thumb {
+    background: #6f6f6f;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+/* Handle on hover */
+
+.submenu::-webkit-scrollbar-thumb:hover {
+    background: #9f9f9f;
+}
